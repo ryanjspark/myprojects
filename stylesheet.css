@@ -1,0 +1,197 @@
+body {
+    font-size: 16px;
+    background-color: #cccccc;
+    font-family: "Oxygen", sans-serif;
+    padding-top: 100px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #009900;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    height: 80px;
+    width: 80px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand h1 {
+    color: red;
+    text-shadow: 1px 1px 1px #222;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    font-size: 1.5em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #000;
+    font-size: .7em;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #cccccc;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
+
+#nav-list a {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #000;
+    
+}
+
+/**home page**/
+
+#main-content h1 {
+    text-align: center;
+
+}
+
+#team-pic {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#intro-tile, #why-tile, #culture-tile, #tutoring-tile, #elt-tile, #events-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+#intro-tile:hover, #why-tile:hover, #culture-tile:hover, #tutoring-tile:hover, #elt-tile:hover, #events-tile:hover {
+    transform: rotate(-10deg);
+}
+
+#intro-tile {
+    background: url(http://www.libertymuseum.org/wp-content/uploads/2016/02/CIMG0493-360x250.jpg) no-repeat;
+    background-position: center;
+}
+
+#why-tile {
+    background: url(http://www.libertymuseum.org/wp-content/uploads/2016/02/CIMG0493-360x250.jpg) no-repeat;
+    background-position: center;
+}
+
+#culture-tile {
+    background: url(http://www.libertymuseum.org/wp-content/uploads/2016/02/CIMG0493-360x250.jpg) no-repeat;
+    background-position: center;
+}
+
+#tutoring-tile {
+    background: url(http://www.libertymuseum.org/wp-content/uploads/2016/02/CIMG0493-360x250.jpg) no-repeat;
+    background-position: center;
+}
+
+#elt-tile {
+    background: url(http://www.libertymuseum.org/wp-content/uploads/2016/02/CIMG0493-360x250.jpg) no-repeat;
+    background-position: center;
+}
+
+#events-tile {
+    background: url(http://www.libertymuseum.org/wp-content/uploads/2016/02/CIMG0493-360x250.jpg) no-repeat;
+    background-position: center;
+}
+
+#intro-tile span, #why-tile span, #culture-tile span, #tutoring-tile span, #elt-tile span, #events-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    opacity: .8;
+}
+/**end home page**/
+
+/***begin intro page***/
+
+#intro-content h1 {
+    text-align: center;
+}
+#intro-content p.quote {
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+#intro-content p.mlk {
+    text-align: center;
+    margin: 0;
+}
+
+#intro-pic {
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    padding: 0 10px 10px 0;
+}
+
+.intro-paragraph1, .intro-paragraph2, .intro-paragraph3, .intro-paragraph4, {
+    text-indent: 2em;
+}
+
+.intro-paragraph3 {
+    clear: both;
+}
+
+/***end intro page***/
+
+/*******large devices only********/
+@media (min-width: 1200px) {
+
+}
+
+/*******medium devices only********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    #logo-img {
+        height: 100px;
+        width: 100px;
+        margin: 5px 5px 5px 0;
+    }
+    /* End Header */
+}
+
+/*******small devices only********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*******x-small devices only********/
+@media (max-width: 767px) {
+    body {
+        padding-top: 200px;
+    }
+    .navbar-brand p {
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    #intro-tile, #why-tile, #culture-tile, #tutoring-tile, #elt-tile, #events-tile {
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+}
