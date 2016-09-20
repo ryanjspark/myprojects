@@ -79,6 +79,7 @@ body {
     border: 2px solid black;
     overflow: hidden;
     transition: all 0.5s ease;
+    text-align: center;
 }
 
 #intro-tile:hover, #why-tile:hover, #culture-tile:hover, #tutoring-tile:hover, #elt-tile:hover, #events-tile:hover {
