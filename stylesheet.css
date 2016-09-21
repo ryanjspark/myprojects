@@ -9,8 +9,9 @@ body {
 
 /** HEADER **/
 
-#header-nav {
-    background-color: #009900;
+.navbar-custom {
+    background-color: #2C3E50;
+    font-weight: 700;
     border-radius: 0;
     border: 0;
 }
